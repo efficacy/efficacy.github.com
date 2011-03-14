@@ -1,0 +1,15 @@
+page.title = Mojasef Examples
+
+<h2>Examples of use</h2>
+
+<ul>
+<li><a href='ex_ramble.html'>A Gentle Ramble</a><br/>
+This is a good place to start if you are not sure what Mojasef is, or what it has to offer. Installation,
+basic configuration, and some of the major features are introduced in a comfortable step-by-step approach.</li>
+<li><a href='ex_quiz.html'>Making A Quiz</a><br/>
+A tutorial which works through creating a relatively simple application showing a way to design, test,
+and implement a complete Mojasef project from scratch.</li>
+</ul>
+
+<p>For more information about what else you can do with
+Mojasef, I recommend that you look at the <a href='manual.html'>manual</a>. Have Fun!</p>

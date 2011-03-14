@@ -1,0 +1,48 @@
+page.title=Mojasef Home
+
+<h2>Introduction</h2>
+
+<p>The most popular way of running Java programs on the World Wide Web is to use the
+Java Servlet API, part of the <a href='http://java.sun.com/j2ee/'>Java 2 Enterprise Edition (J2EE)</a>.
+Unfortunately, the Servlet API (and J2EE in general) has a reputation for being cumbersome to configure
+and use. Worst of all there are a lot of "gotchas" which can make it difficult for inexperienced users,
+even those with a lot of Java experience, to produce effective server-side applications.</p>
+
+<p>At the same time, other web application frameworks, such as
+<a href='http://www.rubyonrails.org/'>Ruby on Rails</a> are receiving
+praise for their speed of starting development and the way their structure maps easily onto the natural
+<a href='http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm'>Representational State Transfer (REST)</a>
+design of the web.</p>
+
+<p>Despite the attractiveness of the Ruby language and the Rails web application framework, there are still
+many good reasons for wishing to write web applications in Java. The aim of the mojasef project is to produce
+a general-purpose server core in Java which has a specific set of defined benefits to developers and users.
+Application code should be:</p>
+
+<ul>
+<li>quick to write, with a minimum of framework-specific code</li>
+<li>simple to test, without needing to run a server or specialist test software</li>
+<li>easy to configure and deploy</li>
+<li>easy to reuse at all levels</li>
+</ul>
+
+<p>I don't want to be guilty of over-hyping Mojasef. So please don't assume that Mojasef does everything
+that Ruby on Rails does. Or that <a href='http://www.zope.org'>Zope</a> or <a href='http://www.plone.org'>Plone</a>
+do. As of this release, Mojasef contains the following:</p>
+
+<ul>
+<li>An "object publisher" that understands both HTTP and Java objects, and tries its best to
+map one to the other.</li>
+<li>A powerful alternative to properties files and XML configurations which allows components and
+applications to be assembled from other components and applications without re-compilation.</li>
+<li>A flexible page-templating system.</li>
+<li>A collection of utility classes, used in the implementation of the server, and available to all
+application code.</li>
+<li>The ability to use any of your favourite Java APIs and libraries.</li>
+</ul>
+
+<p>For more details of exactly what is (and isn't) in the current release, please see the
+<a href='release_notes.html'>release notes</a>.<p>
+
+<p>Mojasef is part of the <a href='http://sf.net/projects/stringtree/'>StringTree</a> project, and
+benefits from many of its powerful abstractions and utilities.</p>

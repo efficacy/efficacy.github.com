@@ -1,0 +1,51 @@
+page.title = Stringtree Home
+
+<h2>What is Stringtree ?</h2>
+
+<p>Stringtree is a collection of Java APIs and components which together form a powerful and effective way to develop
+software. Wherever possible, the components which form the Stringtree collection may be used independently, but the biggest
+benefits come when they are used together.</p>
+
+<p>Stringtree is under active development, and has been used in both commercial and open source developments.</p>
+
+<h2>What does Stringtree include?</h2>
+
+<p>The Stringtree components include:</p>
+
+<ul>
+
+<li><a href='stringtree-json.html'>Stringtree JSON</a> - a small, neat and robust implementation of a reader, writer, and
+validator for the JSON (JavaScript Object Notation) data format. The <a href='https://svn.sourceforge.net/svnroot/stringtree/trunk/src/delivery/java/org/stringtree/json/JSONReader.java'>reader</a>
+and <a href='https://svn.sourceforge.net/svnroot/stringtree/trunk/src/delivery/java/org/stringtree/json/JSONWriter.java'>writer</a>
+are one class each, with no dependencies at all. Even the <a href='https://sourceforge.net/project/showfiles.php?group_id=80689&package_id=226281&release_id=496375'>full stringtree JSON jar</a> with reader, writer,
+validator and some other useful classes weighs in at just 13kB!</li>
+
+<li>Stringtree Templater - a fast and powerful template system for simply generating all kinds of
+textual output, commonly used for generating data formats such as CSV and TSV, XML for transfer of hierarchical information,
+and HTML or WML for the web.</li>
+
+<li>Juicer - a hugely powerful and extensible text transformation "pipeline" which allows complete run-time configuration
+and management of the process. This component drives the core of the Wiki markup conversion in
+<a href='http://www.stringtree.org/friki/'>Friki</a></li>
+
+<li>Fetchers and Finders - a way of assembling building blocks of associative storage to decouple your software from
+the details of storage. Works with files, classpath resources, URLs, environment vraibles, request attributes, and many more.</li>
+
+<li>Spec Files - an enhancement of the popular properties file format which supports objects way beyond the humble String.</li>
+
+</ul>
+
+<h2>What uses Stringtree?</h2>
+
+<p>Several sample applications have already been built with Stringtree components. Publicly available examples include:</p>
+
+<ul>
+<li><a href='http://www.stringtree.org/friki/'>Friki</a> - a "wiki" or editable web site.</li>
+<li><a href='http://mojasef.stringtree.org/'>Mojasef</a> - a modular java server framework to get your software on the
+web without messing with servlets and other plumbing.</li>
+</ul>
+
+<h2>Where can I find out more?</h2>
+
+<p>The Stringtree source code and jar files are available from <a href='http://sourceforge.net/projects/stringtree'>Sourceforge</a>.
+There is also an occasional <a href='http://blog.stringtree.org/'>blog about Stringtree development</a>.</p>

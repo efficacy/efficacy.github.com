@@ -1,0 +1,7 @@
+page.title=Home
+
+<h2>Stringtree Software documentation site</h2>
+<ul>
+ <li><a href="stringtree/index.html">Stringtree</a></li>
+ <li><a href="mojasef/index.html">Mojasef</a></li>
+</ul>

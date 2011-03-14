@@ -1,0 +1,12 @@
+page.title=Mojasef - a modular java server framework
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="../css/stylesheet.css" TITLE="Style">
+<div class='wholepage'>
+<div align='center'><a href='index.html'><img src='images/mojasef.jpg' border='0'/></a></div>
+
+<div style='width:100%; height:10px;'></div>
+<div style='width:100%' align='center'>
+<a href='http://sourceforge.net/project/showfiles.php?group_id=127152'><img src='images/but-download.jpg' border='0'/></a>
+<a href='principles.html'><img src='images/but-principles.jpg' border='0'/></a>
+<a href='examples.html'><img src='images/but-examples.jpg' border='0'/></a>
+<a href='manual.html'><img src='images/but-manual.jpg' border='0'/></a></div>

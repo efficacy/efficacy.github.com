@@ -1,0 +1,60 @@
+page.title = Mojasef Principles
+
+<h2>Guiding Principles</h2>
+
+<p>In order to achieve the project aims, all framework code is developed under the following guiding
+principles:
+
+<ul>
+
+<p><li><b>Independence</b><br>
+Classes, objects, components and applications should just be regular Java, testable using regular testing
+tools (such as JUnit), and without needing complex server-test-injection frameworks, staring up and tearing down a
+server during testing, or building and deploying a whole application to test a small section of functionality.
+Code produced for use with mojasef should be readable and understandable by anyone who knows Java, whether or
+not they have ever encountered the mojasef framework.
+</li></p>
+
+<p><li><b>Self-Similarity</b><br>
+When you put some static text on the web it can be at the top of a domain, in a deeply nested
+folder, or included as part of a page. Dynamic content on the web should not care how it is accessed. Applications and
+application components should be interchangeable. Complex applications should be easily to construct
+by arranging smaller applications without needing to change the code, and simple components should be usable as
+complete applications if they do what's needed.
+</li></p>
+
+<p><li><b>User Serviceable Parts</b><br>
+If an application designer/developer or deployer/configurer needs to change some decision to suit a
+particular deployment (from a simple text value such as a database password to the replacement
+of the class used for generating session cookies and beyond) it should be achievable without recompiling
+the server or the application, or its components. Configurations should be as concise as possible, and
+each configuration should be stated in only one place. Configurations should not need tool support beyond
+a basic text editor.
+</li></p>
+
+<p><li><b>Graceful Defaults</b><br>
+The system should run effectively and sensibly with no external configurations. Where configurations are
+desired which change or enhance the default behaviour, only the changes need be specified. No change or
+extension should require re-stating default behaviour or configurations that require telling the system to
+"use the default".
+</li></p>
+
+<p><li><b>Unobtrusiveness</b><br>
+Existing code should be directly usable without needing to rewrite it to fit a particular
+class framework. Applications and components should not need to extend framework-specific base classes
+or need to be wrapped in cumbersome, framework-specific (and often largely untestable) objects. Existing Java
+programming experience should be directly usable without needing to spend a lot of time and effort studying
+complex APIs and learning different ways to do things.
+</li></p>
+
+<p><li><b>Respect</b><br>
+Above all, the framework should respect the underlying culture of the implementation language. For Java,
+that includes things like using regular member variables for storage between requests, and static variables
+for sharing between sessions/threads. It includes being able to write output to System.out, just as you can
+in a console application, and the use of normal Java visibility modifiers ("private", "protected", "public")
+to indicate which methods and member variables are visible to the framework and to users. These conventions
+are openly flouted by the servlet API, which can lead to misunderstandings, frustration, and poor application
+design.
+</li></p>
+
+</ul>
